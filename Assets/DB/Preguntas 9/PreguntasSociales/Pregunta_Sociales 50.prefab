@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "En una ciudad se han presentado manifestaciones de grupos que est\xE1n
+    en contra de las corridas de toros o a favor de \xE9stas. \xBFCu\xE1l de las siguientes
+    opciones describe mejor el conflicto entre los dos grupos?"
+  opciones:
+  - respuesta: "Quienes est\xE1n en contra de las corridas deber\xEDan ser vegetarianos
+      o si no, no tienen autoridad moral."
+    correcta: 0
+  - respuesta: "Quienes est\xE1n a favor de las corridas defienden la tortura de los
+      animales. "
+    correcta: 0
+  - respuesta: "Unos defienden el respeto a la vida de los toros, y los otros una
+      tradici\xF3n art\xEDstica y cultural. "
+    correcta: 1
+  - respuesta: Unos atacan el derecho de los otros a sacrificar animales, y los otros
+      lo defienden.
+    correcta: 0
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Sociales 50
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1

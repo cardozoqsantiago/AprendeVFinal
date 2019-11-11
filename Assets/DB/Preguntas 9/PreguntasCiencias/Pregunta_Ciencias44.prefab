@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "El tibur\xF3n blanco es un animal carn\xEDvoro que se alimenta de mantarrayas,
+    delfines, atunes, focas moteadas y carro\xF1a. Actualmente es una especie en v\xEDa
+    de extinci\xF3n, en especial por la pesca deportiva. El n\xFAmero de tiburones
+    blancos se ha reducido considerablemente y su recuperaci\xF3n no es nada sencilla
+    porque presentan una baja tasa de reproducci\xF3n y una larga infancia. \xBFQu\xE9
+    consecuencias traer\xEDa la extinci\xF3n de estos animales?"
+  opciones:
+  - respuesta: "No habr\xEDa depredadores marinos y por tanto el n\xFAmero de herb\xEDvoros
+      aumentar\xEDa. "
+    correcta: 0
+  - respuesta: "Crecer\xEDa la poblaci\xF3n de presas, por tanto, escasear\xEDan otros
+      recursos. "
+    correcta: 1
+  - respuesta: "Se reducir\xEDa la diversidad de presas donde habita el tibur\xF3n
+      porque no habr\xEDa un depredador. "
+    correcta: 0
+  - respuesta: "En un corto tiempo se extinguir\xEDan las presas del tibur\xF3n blanco,
+      porque se les acabar\xEDan los recursos."
+    correcta: 0
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Ciencias44
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1

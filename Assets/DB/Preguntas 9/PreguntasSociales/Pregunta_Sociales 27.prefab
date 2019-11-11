@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "A lo largo de la historia, las diferentes civilizaciones y culturas han
+    desarrollado distintas t\xE9cnicas, herramientas y procesos para suplir sus necesidades,
+    esto hace que las mismas necesidades se suplan de maneras diferentes. Un ejemplo
+    de esta situaci\xF3n en Colombia es que"
+  opciones:
+  - respuesta: "Los paisas usan poncho y carriel, mientras que las comunidades ind\xEDgenas
+      usan manta y mochila de lana."
+    correcta: 0
+  - respuesta: "La necesidad de alimentos como carbohidratos, se suple en la regi\xF3n
+      Andina con papa y en el Caribe con pl\xE1tano. "
+    correcta: 1
+  - respuesta: "Los bogotanos usan ropa apropiada para climas fr\xEDos en tanto los
+      caribe\xF1os, no necesitan ropa para el fr\xEDo cuando viajan a Bogot\xE1. "
+    correcta: 0
+  - respuesta: "Las poblaciones ribere\xF1as de las cuencas del Pac\xEDfico no necesiten
+      arados, como las comunidades campesinas de ladera en Cundinamarca."
+    correcta: 0
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Sociales 27
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "En el instituto t\xE9cnico industrial, la calificaci\xF3n de las materias
+    est\xE1 entre 1 y 10. Teniendo en cuenta cuatro aspectos para sacar la nota definitiva
+    del periodo: El saber (25%), El saber hacer (30%), La prueba saber (25%) y el
+    ser (20%). Si un estudiante de estad\xEDstica del grado sexto obtuvo las siguientes
+    calificaciones, en el saber 6,2; en el saber hacer 8,5; en la prueba saber 5 y
+    en el ser 8,5. Podemos decir que su definitiva en el periodo fue: "
+  opciones:
+  - respuesta: 7,05
+    correcta: 1
+  - respuesta: 8,05
+    correcta: 0
+  - respuesta: 6,05
+    correcta: 0
+  - respuesta: 5,4
+    correcta: 0
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Matemacias59
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1

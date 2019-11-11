@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Sociales
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "Como argumento a favor del vegetarianismo, una persona afirma que consumir
+    carne es nocivo para los humanos porque el animal, del cual se obtiene esta, sufre
+    en el proceso, y esto produce energ\xEDas negativas que se transmiten al consumidor
+    y perjudican su salud. Otra persona, igualmente a favor del vegetarianismo, sostiene
+    que el consumo de productos de origen animal es un acto amoral, en la medida en
+    que resulta del abuso e insensibilidad del ser humano ante los dem\xE1s seres
+    vivos. \xBFCu\xE1l de las siguientes afirmaciones sobre la relaci\xF3n entre las
+    opiniones presentadas NO es correcta?"
+  opciones:
+  - respuesta: Son similares, porque ambas van en contra del consumo de carne.
+    correcta: 0
+  - respuesta: "Son complementarias, porque ambas promueven el vegetarianismo cuando
+      argumentan la obligaci\xF3n de proteger a los animales."
+    correcta: 1
+  - respuesta: Son diferentes, porque la primera aboga por la salud del ser humano
+      y la segunda, por el bienestar de los animales.
+    correcta: 0
+  - respuesta: "Son dis\xEDmiles, porque la primera se centra en c\xF3mo el animal
+      afecta al ser humano y la segunda, en c\xF3mo el ser humano afecta al animal."
+    correcta: 0

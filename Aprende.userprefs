@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PreguntasUI.cs">
+    <Files>
+      <File FileName="Assets\Scripts\ControladorTexto.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Respuesta1.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Respuesta2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Respuesta3.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Respuesta4.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CambioPregunta.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Reporte.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ReporteTexto.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PreguntasUI.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Sociales 9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "En el contexto de la crisis econ\xF3mica que experiment\xF3 el pa\xEDs
+    a finales de la d\xE9cada de 1990, el Gobierno colombiano estableci\xF3 una serie
+    de acuerdos con el Fondo Monetario Internacional que contemplaban la ejecuci\xF3n
+    de medidas tales como reforma estructural del sector p\xFAblico; fortalecimiento
+    del sector financiero; reducci\xF3n del gasto del gobierno central; reforma pensional;
+    protecci\xF3n al libre comercio; extensi\xF3n del impuesto al valor agregado (IVA);
+    participaci\xF3n del sector privado en servicios de infraestructura; flexibilizaci\xF3n
+    laboral; mayores condiciones legales para la inversi\xF3n extranjera en explotaci\xF3n
+    petrolera y minera y privatizaci\xF3n de bancos estatales y empresas p\xFAblicas
+    del sector energ\xE9tico y de telecomunicaciones. Estas medidas pueden catalogarse
+    como \u201Cneoliberales\u201D, en tanto que"
+  opciones:
+  - respuesta: "implican un manejo arbitrario de la din\xE1mica econ\xF3mica del pa\xEDs
+      por el Gobierno nacional."
+    correcta: 0
+  - respuesta: plantean una mayor presencia del Estado en el sector productivo como
+      agente administrador.
+    correcta: 0
+  - respuesta: "implican la injerencia de instituciones financieras extranjeras en
+      la pol\xEDtica econ\xF3mica interna."
+    correcta: 0
+  - respuesta: "buscan reducir el tama\xF1o del Estado y su participaci\xF3n en la
+      regulaci\xF3n de actividades econ\xF3micas."
+    correcta: 1

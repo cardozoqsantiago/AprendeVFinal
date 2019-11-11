@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Escenas/1.MenuRol.unity
+    guid: d2cee63033d307e499cb56b69209fcba
+  - enabled: 1
+    path: Assets/Escenas/2.RegistroEstudiante.unity
+    guid: de7192ce14ed6b54ebf8fb9ccee2d1d6
+  - enabled: 1
+    path: Assets/Escenas/3.SeleccionarPrueba.unity
+    guid: 542b3c59cda39f9428a3d3d2b171fb4e
+  - enabled: 1
+    path: Assets/Escenas/4.Instrucciones 9.unity
+    guid: 3c0d0ce8c5044584e9bdcbe870a4dec4
+  - enabled: 1
+    path: Assets/Escenas/4.Instrucciones 11.unity
+    guid: 655c0902c236f4c4f95665c868842ee9
+  - enabled: 1
+    path: Assets/Escenas/5.SesionProfesor.unity
+    guid: 32d4f3c1d7773b54b94415cf42435d88
+  - enabled: 1
+    path: Assets/Escenas/Saber 9/ListaRespuestasMatema9.unity
+    guid: b2decb8b4f78f70478f48099218d68f5
+  - enabled: 1
+    path: Assets/Escenas/Saber 9/SeleccionarAreaRespuestas9.unity
+    guid: f34a6d130afb2d7408e30a10a43bca43
+  - enabled: 1
+    path: Assets/Escenas/Saber 9/ListaPreguntas.unity
+    guid: 504f8900374eb6341baa1a35c962d1e3
+  - enabled: 1
+    path: Assets/Escenas/Saber 9/ListaPreguntas 1.unity
+    guid: 078c223cfc4c2ad4391bfb794c132735
+  - enabled: 1
+    path: Assets/Escenas/Saber 9/ListaRespuestasSociales9.unity
+    guid: 86af13d0e3156ae43881e10efa82984c
+  - enabled: 1
+    path: Assets/Escenas/Saber 9/ListaPreguntas 2.unity
+    guid: a8e78b7eaf9c5e14eb4642be2815a8b9
+  - enabled: 1
+    path: Assets/Escenas/Saber 9/ListaPreguntas 3.unity
+    guid: 244713ac6a1f19e4ea12e732a825823d
+  - enabled: 1
+    path: Assets/Escenas/Saber 9/ReporteEstudiante.unity
+    guid: 96c5617495c44164fa5a371affe23a0d
+  - enabled: 1
+    path: Assets/Escenas/Saber 11/ListaRespuestasLenguaje11.unity
+    guid: 0f00f80fe960bd641b4f7a2e9bba657e
+  - enabled: 1
+    path: Assets/Escenas/Saber 9/ListaRespuestasLenguaje9.unity
+    guid: eb9860c2cc819c04b88d9998564a0350
+  - enabled: 1
+    path: Assets/Escenas/Saber 11/SeleccionarAreaRespuestas11.unity
+    guid: 0ce3fc6115ab36a46853cff325863685
+  - enabled: 1
+    path: Assets/Escenas/Saber 11/ListaRespuestasSociales11.unity
+    guid: dcb377c4a7b00fa4998d88213e4ce290
+  - enabled: 1
+    path: Assets/Escenas/Saber 11/ListaRespuestasMatema11.unity
+    guid: 865940fa74c8b7c49bc1e9a7f0baf23b
+  - enabled: 1
+    path: Assets/Escenas/Saber 11/ListaPreguntas 4.unity
+    guid: fe6a75c771f7e014687788da1f5970b7
+  - enabled: 1
+    path: Assets/Escenas/Saber 9/ListaRespuestasCiencias9.unity
+    guid: d5920178bd80ab041979622132982486
+  - enabled: 1
+    path: Assets/Escenas/Saber 11/ListaRespuestasCiencias11.unity
+    guid: f648fcc2b137ded40ab8d08bb5c579e4
+  - enabled: 1
+    path: Assets/Escenas/Saber 11/ListaPreguntas 5.unity
+    guid: 4110593fdac7b48478d0856e6321dfd3
+  - enabled: 1
+    path: Assets/Escenas/Saber 11/ListaPreguntas 6.unity
+    guid: ca78c481b50adb6479e789f7823b1081
+  - enabled: 1
+    path: Assets/Escenas/6.SeleccionarGradoRespuestas.unity
+    guid: 5489b6a91d0e3d74babd2ab554e84987
+  - enabled: 1
+    path: Assets/Escenas/Saber 11/ListaPreguntas 7.unity
+    guid: abad6b11142eb49419c9a51fee082bc2
+  - enabled: 1
+    path: Assets/Escenas/Saber 11/ReporteEstudiante 1.unity
+    guid: 30c720fbdc917c44d82fadca76abe791
+  m_configObjects: {}

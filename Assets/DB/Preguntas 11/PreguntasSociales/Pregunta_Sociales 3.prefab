@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Sociales 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "La asamblea de propietarios de un edificio de la ciudad estudia la posibilidad
+    de ampliar el horario para las reuniones privadas que se realizan en el sal\xF3n
+    comunal. Los propietarios de los pisos altos est\xE1n de acuerdo en que se ampl\xEDe
+    el horario hasta la 1:00 a. m. y mencionan que es la hora ideal para finalizar
+    las reuniones; los propietarios del primer piso (lugar donde se encuentra el sal\xF3n
+    comunal) est\xE1n en desacuerdo con el horario, ya que son ellos quienes se afectan
+    por el ruido ocasionado por este tipo de reuniones a avanzadas horas de la noche.
+    Despu\xE9s de que los propietarios exponen sus intereses, se realiza una votaci\xF3n
+    y se decide que se ampliar\xE1 el uso del sal\xF3n hasta la medianoche. \xBFEsta
+    soluci\xF3n se ajusta a los intereses de todos los vecinos?"
+  opciones:
+  - respuesta: "No, porque los habitantes de los pisos m\xE1s altos no pueden aprovechar
+      las fiestas que se hagan en el sal\xF3n comunal."
+    correcta: 0
+  - respuesta: "S\xED, porque debido a que la propuesta se aprob\xF3, todos los vecinos
+      est\xE1n llamados a tener los mismos intereses."
+    correcta: 0
+  - respuesta: "No, porque el ruido de las fiestas afecta m\xE1s a los propietarios
+      del primer piso cercanos al sal\xF3n comunal."
+    correcta: 1
+  - respuesta: "S\xED, porque todos los propietarios tuvieron derecho a exponer sus
+      ideas y a votar seg\xFAn sus intereses."
+    correcta: 0

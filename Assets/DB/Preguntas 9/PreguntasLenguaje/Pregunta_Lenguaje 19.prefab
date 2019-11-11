@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "Quieres vender tu vieja bicicleta para comprar una nueva y tus padres
+    te aconsejaron ofrecerla en la cartelera escolar mediante un aviso. En la planeaci\xF3n
+    de tu aviso, decides que hay seis ideas importantes: 1. Quiero comprar una bicicleta
+    nueva.  2. me falta dinero para pagarla.  3. decid\xED vender mi bicicleta, que
+    est\xE1 vieja. 4. se encuentra en buen estado.  5. la doy a buen precio.  6. puede
+    comunicarse al tel\xE9fono 22045678. Las palabras adecuadas para hilar estas ideas
+    de forma l\xF3gica ser\xEDan: "
+  opciones:
+  - respuesta: "pero / tambi\xE9n / por consiguiente / pero / del mismo modo."
+    correcta: 0
+  - respuesta: "en cambio / adem\xE1s / pero / entonces / puesto que."
+    correcta: 0
+  - respuesta: "incluso / por el contrario / pero / adem\xE1s / a\xFAn as\xED"
+    correcta: 0
+  - respuesta: "y / por eso / no obstante / adem\xE1s / si le interesa."
+    correcta: 0
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Lenguaje 19
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1

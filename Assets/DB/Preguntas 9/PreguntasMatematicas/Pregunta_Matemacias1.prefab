@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "Cuando se toma una cantidad m de un medicamento, el organismo tarda un
+    determinado tiempo en eliminarlo progresivamente. La expresi\xF3n y = m0,8t permite
+    calcular la cantidad de medicamento y, en miligramos, que queda en el organismo,
+    transcurrido un periodo de tiempo t, en horas, desde que una persona toma el medicamento.
+    De acuerdo con la informaci\xF3n anterior, la expresi\xF3n permite calcular:"
+  opciones:
+  - respuesta: La cantidad de medicamento y = 0,8 que queda en el organismo, cuando
+      ha transcurrido un tiempo t.
+    correcta: 0
+  - respuesta: 'El tiempo t transcurrido, cuando se ha eliminado la mitad del medicamento
+      m en el organismo. '
+    correcta: 1
+  - respuesta: "La cantidad de medicamento (m \u2013 y) eliminada del organismo, cuando
+      ha transcurrido un tiempo t."
+    correcta: 0
+  - respuesta: El tiempo t transcurrido, cuando quedan 0,8 miligramos de medicamento
+      en el organismo.
+    correcta: 0
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Matemacias1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1

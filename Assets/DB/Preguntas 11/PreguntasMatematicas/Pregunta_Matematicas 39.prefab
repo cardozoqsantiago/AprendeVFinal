@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Matematicas 39
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "Para formular dos medicamentos en c\xE1psulas P y Q, un m\xE9dico debe
+    tener en cuenta, entre otras cosas, que \x01 el contenido por c\xE1psula es de
+    10 mg. Para el medicamento P y de 100 mg. para el medicamento Q. \x01 exceder
+    los 80 mg. de medicamento P o los 1000 mg. de medicamento Q es perjudicial para
+    el organismo. \x01 el contenido de los medicamentos P y Q disminuyen en el organismo
+    a raz\xF3n de 0.5 mg/h y 10 mg/h respectivamente. Un paciente ha consumido al
+    mismo tiempo una c\xE1psula de cada medicamento. \xBFEs posible que en alg\xFAn
+    momento la cantidad de los dos medicamentos, P y Q en el organismo sea la misma?"
+  opciones:
+  - respuesta: "s\xED, porque las rectas que describen la disminuci\xF3n de la cantidad
+      de medicamento en el organismo, tienen pendientes -0,5 y - 10 y por tanto deben
+      cortarse en alg\xFAn punto"
+    correcta: 1
+  - respuesta: "s\xED, porque el organismo tard\xF3 en eliminar los medicamentos 20
+      horas y 10 horas, respectivamente, por tanto a las 15 horas la cantidad de los
+      dos medicamentos es la misma"
+    correcta: 0
+  - respuesta: "no, porque las rectas que describen la disminuci\xF3n de la cantidad
+      de medicamento en el organismos son paralelas"
+    correcta: 0
+  - respuesta: "no, porque el organismo siempre elimina 9.5 mg. m\xE1s de medicamento
+      Q que de medicamento P"
+    correcta: 0

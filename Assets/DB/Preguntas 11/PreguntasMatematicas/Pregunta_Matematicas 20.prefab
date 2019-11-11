@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Matematicas 20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "Un almac\xE9n mayorista vende camisetas a $28 500; cada una le cuesta
+    al almac\xE9n $14 250, pero existe una promoci\xF3n seg\xFAn la cual por la compra
+    de m\xE1s de cinco camisetas se puede llevar a mitad de precio las restantes,
+    pero sin llevar m\xE1s de nueve camisetas. El administrador realiza una prueba
+    a los cajeros del almac\xE9n para conocer si entendieron la promoci\xF3n. En esa
+    prueba aparecen valores de posibles ventas. Si un cajero la entendi\xF3, \xE9l
+    deber\xE1 escoger"
+  opciones:
+  - respuesta: $14 250, porque corresponde a la venta de una camiseta
+    correcta: 0
+  - respuesta: $142 500, porque corresponde a la venta de cinco camisetas
+    correcta: 1
+  - respuesta: $156 750, porque corresponde a la venta de seis camisetas
+    correcta: 1
+  - respuesta: $285 000, porque corresponde a la venta de diez camisetas
+    correcta: 0

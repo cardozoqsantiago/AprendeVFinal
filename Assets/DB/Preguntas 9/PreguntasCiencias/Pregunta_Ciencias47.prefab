@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "Los musgos son plantas que no tienen sistema vascular ni ra\xEDces como
+    los arbustos y \xE1rboles, y no pueden almacenar agua ni absorberla del subsuelo.
+    \xBFA qu\xE9 tipo de ambientes est\xE1n adaptadas estas plantas?"
+  opciones:
+  - respuesta: "A ambientes \xE1rticos y polares porque pueden sobrevivir con reservas
+      de agua congelada. "
+    correcta: 0
+  - respuesta: "A ambientes h\xFAmedos y tropicales porque pueden disponer de abundante
+      agua durante todo el a\xF1o. "
+    correcta: 1
+  - respuesta: "A ambientes salinos o cercanos al mar porque la sal permite acumular
+      m\xE1s agua en la planta. "
+    correcta: 0
+  - respuesta: A ambientes artificiales como jardines e invernaderos porque dependen
+      del ser humano para obtener agua.
+    correcta: 0
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Ciencias47
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1

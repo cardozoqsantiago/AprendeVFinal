@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Sociales 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "El alcalde de un municipio, su abogado asesor y el que es considerado
+    el mayor contratista de la regi\xF3n compraron, por $244 millones, 129.881 m2
+    de tierra en dos veredas de ese municipio. Gracias a unos $4.700 millones de recursos
+    nacionales y municipales que el mandatario destin\xF3 a rieles, pavimentos e iluminaci\xF3n
+    de v\xEDas, el precio de ese pedazo de tierra comprado puede superar hoy los $12.000
+    millones. La situaci\xF3n ha sido conocida por diferentes personas quienes denunciaron
+    que, despu\xE9s de comprar esas propiedades, el alcalde incluy\xF3 dentro del
+    Plan B\xE1sico de Ordenamiento Territorial (PBOT) del municipio, inversiones en
+    v\xEDas e iluminaci\xF3n que no estaban en el Plan de Desarrollo que fue presentado
+    al inicio del mandato, pero que s\xED favorec\xEDan la valorizaci\xF3n de esos
+    predios rurales. Consultado sobre esa denuncia, el alcalde reconoci\xF3 que los
+    beneficios no son solo para \xE9l y sus allegados, sino para toda la comunidad.
+    De acuerdo con el texto anterior, los se\xF1alamientos en contra del alcalde obedecen
+    a que los denunciantes"
+  opciones:
+  - respuesta: no obtuvieron beneficio de las obras desarrolladas en el PBOT.
+    correcta: 0
+  - respuesta: creen que el alcalde no ha hecho obras que beneficien al municipio.
+    correcta: 0
+  - respuesta: "tienen evidencias para afirmar que el alcalde abus\xF3 de su poder."
+    correcta: 1
+  - respuesta: no quieren que el alcalde invierta en las zonas rurales del municipio.
+    correcta: 0

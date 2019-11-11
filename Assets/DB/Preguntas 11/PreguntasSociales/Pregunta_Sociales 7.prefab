@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Sociales 7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "En Colombia, las ramas del poder p\xFAblico pueden ejercer control pol\xEDtico
+    entre s\xED para garantizar el equilibrio de poderes y evitar abusos. Una de estas
+    ramas cuenta con dos mecanismos: la citaci\xF3n a un debate de control pol\xEDtico
+    y la moci\xF3n de censura. La citaci\xF3n a un debate de control pol\xEDtico permite
+    indagar sobre las acciones u omisiones de los funcionarios del Estado, as\xED
+    como obtener informaci\xF3n relevante de su gesti\xF3n y del cumplimiento de sus
+    labores. Por otro lado, la moci\xF3n de censura es un mecanismo a trav\xE9s del
+    cual se reprocha la actuaci\xF3n de uno o varios ministros, dando lugar a la separaci\xF3n
+    de su cargo.    De acuerdo con la Constituci\xF3n pol\xEDtica de Colombia, \xBFcu\xE1l
+    de las ramas del poder puede ejercer control pol\xEDtico a trav\xE9s de citaciones
+    y mociones de censura?  "
+  opciones:
+  - respuesta: La Rama Electoral.
+    correcta: 0
+  - respuesta: La Rama Ejecutiva.
+    correcta: 0
+  - respuesta: La Rama Judicial.
+    correcta: 0
+  - respuesta: La Rama Legislativa.
+    correcta: 1

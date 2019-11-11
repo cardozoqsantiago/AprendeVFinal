@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Lenguaje 20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "Un d\xEDa de verano de 1414, el emperador de China y casi toda la corte
+    esperaban en la puerta Fengtien la llegada de un viajero extranjero. Ven\xEDa
+    con una flota China enviada a Malindi, en las costas m\xE1s orientales del oc\xE9ano
+    \xCDndico. El a\xF1o anterior hab\xEDa visitado la ciudad imperial un personaje
+    parecido, pero no se hab\xEDa organizado una bienvenida semejante. No era para
+    menos; los barcos arribaban trayendo a una celebridad de ascendencia divina: el
+    m\xEDtico chilin, o unicornio, descrito por un testigo como \"de m\xE1s de cuatro
+    metros de alto, con el cuerpo de un ciervo, la cola de un buey y un cuerno carnoso,
+    sin hueso, con manchas luminosas como una neblina roja o p\xFArpura\". Lo que
+    hab\xEDa llegado a China era una jirafa. Teniendo en cuenta el texto de Sabadell
+    se puede deducir que el primer chilin arrib\xF3 a China como"
+  opciones:
+  - respuesta: "un tributo del emperador para el zool\xF3gico de Fengtien."
+    correcta: 1
+  - respuesta: "un invitado de honor a la celebraci\xF3n del a\xF1o de la jirafa."
+    correcta: 0
+  - respuesta: una evidencia de la existencia de animales orientales.
+    correcta: 0
+  - respuesta: "una manifestaci\xF3n de venganza de los dioses paganos."
+    correcta: 0

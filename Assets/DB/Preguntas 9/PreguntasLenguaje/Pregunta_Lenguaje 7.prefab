@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "En un foro de discusi\xF3n sobre la desaparici\xF3n de tu programa de
+    televisi\xF3n preferido, escribiste una opini\xF3n sobre esta situaci\xF3n:  \u201CEs
+    realmente indignante que a los seguidores de este interesante programa, no se
+    les haya avisado, con el suficiente tiempo, que se iba a cancelar el programa
+    de televisi\xF3n. Era muy bueno, ten\xEDa muy buena audiencia. Por qu\xE9 nos
+    hacen esto?????\u201D  Otro participante del foro que lea tu mensaje, podr\xEDa
+    decir que  "
+  opciones:
+  - respuesta: "El tema del mensaje es ambiguo con respecto al foro de discusi\xF3n. "
+    correcta: 0
+  - respuesta: 'El foro es inadecuado, pues no permite que se expresen las opiniones
+      personales. '
+    correcta: 0
+  - respuesta: "El mensaje que escribiste no expresa directamente el objetivo del
+      foro de discusi\xF3n. "
+    correcta: 0
+  - respuesta: "Tu opini\xF3n es adecuada con la intenci\xF3n de denunciar la desaparici\xF3n
+      del programa."
+    correcta: 1
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Lenguaje 7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1

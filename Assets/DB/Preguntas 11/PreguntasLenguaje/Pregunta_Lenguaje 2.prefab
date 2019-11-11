@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Lenguaje 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "En el siguiente apartado, un miembro defensor del orden le explica al
+    protagonista el principal prop\xF3sito del r\xE9gimen: No habr\xE1 lealtad; no
+    existir\xE1 m\xE1s fidelidad que la que se debe al Partido, ni m\xE1s amor que
+    el amor al Gran Hermano. No habr\xE1 risa, excepto la risa triunfal cuando se
+    derrota a un enemigo. No habr\xE1 arte, ni literatura, ni ciencia. No habr\xE1
+    ya distinci\xF3n entre la belleza y la fealdad. Todos los placeres ser\xE1n destruidos.
+    Pero siempre, no lo olvides, Winston, siempre habr\xE1 el af\xE1n de poder, la
+    sed de dominio, que aumentar\xE1 constantemente y se har\xE1 cada vez m\xE1s sutil.
+    Siempre existir\xE1 la emoci\xF3n de la victoria, la sensaci\xF3n de pisotear
+    a un enemigo indefenso. Si quieres hacerte una idea de c\xF3mo ser\xE1 el futuro,
+    fig\xFArate una bota aplastando un rostro humano... incesantemente. \xBFCu\xE1l
+    de las siguientes afirmaciones es incompatible con las pol\xEDticas del Partido?"
+  opciones:
+  - respuesta: El pueblo debe mantenerse unido.
+    correcta: 0
+  - respuesta: La individualidad debe ser eliminada.
+    correcta: 1
+  - respuesta: "El poder est\xE1 en ser fiel a uno mismo."
+    correcta: 0
+  - respuesta: "Un pueblo ignorante es m\xE1s poderoso."
+    correcta: 0

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "El c\xE1ncer es una enfermedad causada por la multiplicaci\xF3n descontrolada
+    de c\xE9lulas de un \xF3rgano lo cual ocasiona la formaci\xF3n de tumores y la
+    p\xE9rdida de cooperaci\xF3n entre las c\xE9lulas del \xF3rgano. \xBFPor qu\xE9
+    afecta el c\xE1ncer la funci\xF3n del \xF3rgano en que aparece el tumor?"
+  opciones:
+  - respuesta: "Porque el \xF3rgano aumenta de tama\xF1o. "
+    correcta: 0
+  - respuesta: "Porque el \xF3rgano trabaja m\xE1s r\xE1pido. "
+    correcta: 0
+  - respuesta: "Porque el tumor obstruye el paso de nutrientes al resto del \xF3rgano. "
+    correcta: 1
+  - respuesta: "Porque el tumor realiza las funciones del \xF3rgano en el organismo."
+    correcta: 0
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Ciencias34
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1

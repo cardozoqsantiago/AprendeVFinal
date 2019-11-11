@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Matematicas 32
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "Se tiene la idea de crear un juego que consiste en tomar dos balotas
+    al azar de una bolsa oscura, balotas que luego de ser extra\xEDdas regresan a
+    la bolsa para una nueva jugada. Dicha bolsa contiene: dos balotas blancas, dos
+    azules, dos amarillas, dos verdes y dos rojas, y seg\xFAn el color, a cada balota
+    le corresponde un valor; blanca = 0, azul = 1, amarilla = 2, verde = 3, roja =
+    4. El puntaje obtenido al sacar las dos balotas es la suma de los valores de las
+    balotas sacadas. Gana el juego quien saque el mayor puntaje posible. Para hacer
+    m\xE1s dif\xEDcil ganar el juego, se han introducido m\xE1s balotas, correspondi\xE9ndole
+    a cada par nuevo de balotas un nuevo valor que se incrementa de uno en uno, por
+    cada nueva introducci\xF3n. Esto tiene \xE9xito, pues si n es el mayor puntaje
+    que se puede obtener, entonces"
+  opciones:
+  - respuesta: "el l\xEDmite, cuando n tiende a infinito, de la expresi\xF3n 8/(n+2)
+      (n+4), que representa la probabilidad de obtener el mayor puntaje, es igual
+      a cero"
+    correcta: 1
+  - respuesta: "el l\xEDmite, cuando n tiende a infitino, de la expresi\xF3n 2/n(n+1)
+      que representa la probabilidad de obtener el mayor puntaje, es igual a cero"
+    correcta: 0
+  - respuesta: "la cantidad de posibles puntajes aumenta en n+1, lo que hace que el
+      l\xEDmite de la probabilidad de obtener n tienda a + 2"
+    correcta: 0
+  - respuesta: "la probabilidad de obtener n es 1/n, y su l\xEDmite, cuando n tiende
+      a infinito, es igual a cero"
+    correcta: 0

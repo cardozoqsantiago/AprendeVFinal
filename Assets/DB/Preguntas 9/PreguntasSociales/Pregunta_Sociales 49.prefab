@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "Este a\xF1o el rector de un colegio ha decidido reducir el n\xFAmero
+    de premios a los mejores estudiantes, de modo que se otorgar\xE1 uno, en lugar
+    de los dos que usualmente se entregaban por curso. In\xE9s y Rosa, estudiantes
+    de octavo grado, han comenzado a pelear en el colegio. Las dos son reconocidas
+    por ser buenas deportistas y estudiantes. \xBFQu\xE9 puede estar causando las
+    peleas entre las estudiantes?"
+  opciones:
+  - respuesta: "Que las dos tienen un buen desempe\xF1o en el colegio. "
+    correcta: 0
+  - respuesta: "Que una de las dos es m\xE1s competitiva que la otra. "
+    correcta: 0
+  - respuesta: 'Que el colegio las ha puesto a competir por un solo premio. '
+    correcta: 1
+  - respuesta: "Que el colegio les ha exigido m\xE1s en el \xFAltimo a\xF1o."
+    correcta: 0
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Sociales 49
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1

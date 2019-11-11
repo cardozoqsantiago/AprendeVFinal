@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Ciencias4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "El profesor de Juan le entrega tres objetos de igual volumen y forma,
+    pero de diferente material, y le pide que los deje caer desde la altura de sus
+    hombros y observe el tiempo de ca\xEDda al suelo, de cada uno de ellos. Juan observa
+    que los tres tardan tiempos diferentes para llegar al suelo, a pesar de que los
+    tres est\xE1n sometidos a la misma aceleraci\xF3n gravitacional. Teniendo en cuenta
+    la informaci\xF3n anterior, \xBFcu\xE1l de las siguientes preguntas se puede contestar
+    a partir de las observaciones que realiz\xF3 Juan?"
+  opciones:
+  - respuesta: "\xBFEl tiempo de ca\xEDda de los objetos depende de la altura de lanzamiento?"
+    correcta: 0
+  - respuesta: "\xBFLa fuerza gravitacional es proporcional a la masa de los objetos?"
+    correcta: 0
+  - respuesta: "\xBFLa fuerza neta que act\xFAa sobre cada uno de los objetos es diferente?"
+    correcta: 1
+  - respuesta: "\xBFLa forma de los objetos est\xE1 relacionada con diferencias en
+      la fuerza de fricci\xF3n?"
+    correcta: 0

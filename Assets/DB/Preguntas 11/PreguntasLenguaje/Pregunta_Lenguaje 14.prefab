@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1960300037690746087
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 506950229274845929}
+  - component: {fileID: 334754717592013599}
+  m_Layer: 0
+  m_Name: Pregunta_Lenguaje 14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &506950229274845929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.49363193, y: 0.0015882403, z: -5.599562}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &334754717592013599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960300037690746087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e59ef7b524f205245a39b927f1db51af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pregunta: "Y me contest\xF3 la divina entre las diosas: \u201CHijo de Laertes, de
+    linaje divino, Odiseo de mil trucos, no te quedes ya m\xE1s en mi morada contra
+    tus deseos. Pero ante todo tienes que cumplir otro viaje y llegar a las mansiones
+    de Hades y la venerada Pers\xE9fone, a consultar en or\xE1culo el alma de tebano
+    Tiresias, el adivino ciego, que conserva su entendimiento firme. A \xE9l, incluso
+    muerto, le concedi\xF3 Pers\xE9fone mantener su mente despierta, a \xE9l solo,
+    que los dem\xE1s se mueven como sombras\u201D. As\xED dijo. Entonces a m\xED se
+    me parti\xF3 el coraz\xF3n. Me ech\xE9 a llorar tumbado sobre el lecho, y mi \xE1nimo
+    ya no quer\xEDa vivir ni ver m\xE1s la luz del sol. Luego que me saci\xE9 de llorar
+    y de revolcarme, entonces a ella le dirig\xED mis palabras y dije: \u201C\xBFAh,
+    Circe, qui\xE9n va, pues, a guiarme en ese viaje? Hasta el Hades nunca nadie lleg\xF3
+    en una negra nave.\u201D Seg\xFAn el texto anterior, es posible afirmar que el
+    narrador de los acontecimientos que ocurren en la Odisea es"
+  opciones:
+  - respuesta: el autor de la Odisea.
+    correcta: 0
+  - respuesta: el protagonista de la Odisea.
+    correcta: 1
+  - respuesta: la esposa de Odiseo.
+    correcta: 0
+  - respuesta: una de las musas de la Odisea.
+    correcta: 0
