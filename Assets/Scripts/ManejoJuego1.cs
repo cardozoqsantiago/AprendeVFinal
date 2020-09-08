@@ -25,7 +25,7 @@ public class ManejoJuego1 : MonoBehaviour
   int contadorCorrectas = 0;
   int contadorInorrectas = 0;
  
-  private void Start(){
+  public void Start(){
 
     preguntasDB = GameObject.FindObjectOfType<PreguntasDB>();
 
@@ -38,17 +38,17 @@ public class ManejoJuego1 : MonoBehaviour
   }
   
  
-  private void siguientePregunta2(){
+  public void siguientePregunta2(){
     preguntasUI.constructor(preguntasDB.GetRandom9Cie() , darRespuesta);
   }
   
-  private void darRespuesta(SeleccionarRespuesta seleccionarRespuesta){
+  public void darRespuesta(SeleccionarRespuesta seleccionarRespuesta){
 
     StartCoroutine(darCaracteristicaRespuesta(seleccionarRespuesta));
     
   }
 
-  private IEnumerator darCaracteristicaRespuesta(SeleccionarRespuesta seleccionarRespuesta){
+  public IEnumerator darCaracteristicaRespuesta(SeleccionarRespuesta seleccionarRespuesta){
 
     if(fuenteAudio.isPlaying)
       fuenteAudio.Stop();

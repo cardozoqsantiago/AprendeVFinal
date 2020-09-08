@@ -1,0 +1,1 @@
+C:\Users\SantiagoPC\Documents\Documentos\Proyectos\GitHub\Aprende\.vs\Aprende\v16\lut\0\i\ManejoJuego.Tests\Debug\ManejoJuego.Tests.csproj.CoreCompileInputs.cache

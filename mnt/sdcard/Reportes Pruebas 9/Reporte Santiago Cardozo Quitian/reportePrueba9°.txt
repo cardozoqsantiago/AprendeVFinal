@@ -1,0 +1,22 @@
+Santiago Cardozo Quitian
+
+El desempeño en la prueba 9° fue de: 21%
+Obteniendo un total de 13 preguntas contestadas correctamente
+y un total de 47 preguntas contestadas incorrectamente.
+
+En el área de Matemáticas el desempeño fue de: 13%
+Obteniendo un total de 2 preguntas contestadas correctamente
+y un total de 13 preguntas contestadas incorrectamente.
+
+En el área de Ciencias el desempeño fue de: 13%
+Obteniendo un total de 2 preguntas contestadas correctamente
+y un total de 13 preguntas contestadas incorrectamente.
+
+En el área de Lenguaje el desempeño fue de: 20%
+Obteniendo un total de 3 preguntas contestadas correctamente
+y un total de 12 preguntas contestadas incorrectamente.
+
+En el área de Sociales el desempeño fue de: 40%
+Obteniendo un total de 6 preguntas contestadas correctamente
+y un total de 9 preguntas contestadas incorrectamente.
+
